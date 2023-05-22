@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Create Account</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Create New Account</h1>
+        <form action="MainController">
+            Username* <input type="text" name="txtUsername" value="" />(2-15 chars)<br>
+            Password* <input type="text" name="txtPassword" value="" />(6-20 chars)<br>
+            Confirm* <input type="text" name="txtConfirm" value="" />(6-20 chars)<br>
+            Full name* <input type="text" name="txtFullname" value="" />(6-40 chars)<br>
+            <input type="submit" value="CreateNewAccount" name="btAction" />
+            <input type="reset" value="Reset" />
+        </form>
+    </body>
+</html>
